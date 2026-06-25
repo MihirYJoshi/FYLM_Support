@@ -295,6 +295,41 @@ nav a:hover { color: var(--text); text-decoration: none; }
 }
 .btn:hover { background: var(--accent-light); text-decoration: none; transform: translateY(-1px); }
 
+/* Issue Steps */
+.issue-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px auto;
+  max-width: 480px;
+  text-align: left;
+}
+
+.issue-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.issue-num {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.issue-step strong { color: var(--text); }
+
 /* ============================
    Footer
    ============================ */
